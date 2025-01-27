@@ -128,17 +128,61 @@
                 </a>
             </div>
         </div>
+        ...
     </section>
-
+    
+    <!-- Join Us Form -->
+    <div id="join-us-form" style="display: none; position: fixed; top: 10%; left: 50%; transform: translateX(-50%); background: white; padding: 20px; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.3); z-index: 1000;">
+        <h3>Join Us</h3>
+        <form id="joinForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            <button type="submit" class="btn">Submit</button>
+            <button type="button" id="closeForm" class="btn">Cancel</button>
+        </form>
+    </div>
+    
     <script>
         const navLinks = document.querySelectorAll('.navbar a');
-
+    
         navLinks.forEach(link => {
             link.addEventListener('click', () => {
                 navLinks.forEach(nav => nav.classList.remove('active'));
+    
                 link.classList.add('active');
             });
         });
+    
+        const joinBtn = document.querySelector('.nav-btn');
+        const formPopup = document.getElementById('join-us-form');
+        const closeFormBtn = document.getElementById('closeForm');
+        const joinForm = document.getElementById('joinForm');
+    
+        joinBtn.addEventListener('click', (e) => {
+            e.preventDefault();
+            formPopup.style.display = 'block';
+        });
+    
+        closeFormBtn.addEventListener('click', () => {
+            formPopup.style.display = 'none';
+        });
+    
+        joinForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+    
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+    
+            // Perform your API call or other logic here
+            console.log(`Name: ${name}, Email: ${email}`);
+    
+            formPopup.style.display = 'none';
+    
+            alert('Thank you for joining us!');
+        });
     </script>
-</body>
-</html>
+    </body>
+    </html>
+    
