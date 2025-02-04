@@ -1,11 +1,10 @@
 # **Royal Fitness Website**
 
-The **Royal Fitness Website** is a dynamic, user-friendly platform designed for people who are looking to build a healthier lifestyle through fitness. The website offers a variety of fitness-related services, including different gym plans, workout routines, and personal training options. 
-Users can sign up, explore services, and book free classes to start their fitness journey.
+**Royal Fitness** is a fun and easy-to-use website for anyone wanting to get fit and lead a healthier lifestyle. On this site, you can find all kinds of fitness services like gym plans, workout routines, and personal training. Whether you’re just starting out or already into fitness, you can sign up, check out different services, and even book free classes to kick off your fitness journey!  
 
-## **Design Process**
+## **Design Process**  
 
-The Royal Fitness Website is designed to cater to individuals who are passionate about fitness and want to achieve specific fitness goals. The design focuses on simplicity, user interaction, and a seamless experience for anyone exploring fitness services online.
+When creating **Royal Fitness**, the goal was to make a simple and interactive website that’s perfect for anyone excited about getting fit. The design is all about being easy to use and making it simple for users to find what they need—whether it’s choosing a gym plan or learning about different workouts. It's designed to give everyone a smooth and hassle-free way to explore fitness services online!  
 
 ### **User Stories**
 
@@ -22,7 +21,8 @@ The Royal Fitness Website is designed to cater to individuals who are passionate
   - **Sign Up** with a username, email, and password.  
   - **Sign In** using their username and password.  
 - **Pricing Plans** – Users can view different membership plans (Basic, Pro, Premium).  
-- **Services Section** – Lists the available fitness services like strength training, weightlifting, and running.   
+- **Services Section** – Lists the available fitness services like strength training, weightlifting, and running.
+- **Reviews** -    
 
 ### **Features Left to Implement**
 - **Personalized Fitness Plan Generator** - a tool to generate custom workout plans for users based on their preferences and goals.
@@ -36,7 +36,10 @@ The Royal Fitness Website is designed to cater to individuals who are passionate
   - Utilized for styling the layout, ensuring responsiveness, and creating a visually appealing design.
 - **[JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)**
   - Used to add interactivity, such as form validation and dynamic content updates.
-
+- **[RestDB](https://restdb.io/)** 
+  – NoSQL cloud database for storing and managing data via REST APIs.  
+- **[Lottie](https://lottiefiles.com/)** 
+  – For adding lightweight animations.  
 
 ## **Assistive AI**
 
@@ -58,10 +61,13 @@ Users can log in using:
 - **Username**  
 - **Password**  
 
-### **Validation & Security Measures**  
-- Passwords are securely stored using **hashing** (e.g., bcrypt).  
-- Email validation ensures correct formatting.  
-- Username and password fields require a minimum character limit for security.  
+### Validation & Security Measures  
+
+- **Form Validation:** Ensures user inputs are correctly formatted before submission.  
+- **Authentication:** Secure login system to protect user accounts.  
+- **Data Protection:** Uses HTTPS and encrypted database storage for sensitive data.  
+- **Access Control:** Restricts unauthorized access to protected content.  
+- **Input Sanitization:** Prevents SQL injection and XSS attacks.  
 
 ### **Future Enhancements**  
 - Implementing OAuth (Google/Facebook login).  
@@ -81,7 +87,7 @@ Users can log in using:
 ## **Credits**
 
 ### **Media**
-- Images Credits
+Images Credits:
 https://stock.adobe.com/ch_fr/search/images?filters%5Bcontent_type%3A3d%5D=1&filters%5Bcontent_type%3Aaudio%5D=0&filters%5Bcontent_type%3Aillustration%5D=1&filters%5Bcontent_type%3Aphoto%5D=1&filters%5Bcontent_type%3Atemplate%5D=1&filters%5Bcontent_type%3Avideo%5D=1&filters%5Bcontent_type%3Azip_vector%5D=1&filters%5Bfree_collection%5D=0&filters%5Binclude_stock_enterprise%5D=0&filters%5Bis_editorial%5D=0&order=relevance&serie_id=524378456
 
 https://www.facebook.com/photo/?fbid=1119976043464377&set=ecnf.100063559751607&locale=az_AZ
