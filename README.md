@@ -37,12 +37,9 @@ The Royal Fitness Website is designed to cater to individuals who are passionate
 - **[JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)**
   - Used to add interactivity, such as form validation and dynamic content updates.
 
----
 
 ## **Assistive AI**
 
-
----
 
 ## **Testing**
 
@@ -86,12 +83,19 @@ Users can log in using:
 ### **Media**
 - Images Credits
 https://stock.adobe.com/ch_fr/search/images?filters%5Bcontent_type%3A3d%5D=1&filters%5Bcontent_type%3Aaudio%5D=0&filters%5Bcontent_type%3Aillustration%5D=1&filters%5Bcontent_type%3Aphoto%5D=1&filters%5Bcontent_type%3Atemplate%5D=1&filters%5Bcontent_type%3Avideo%5D=1&filters%5Bcontent_type%3Azip_vector%5D=1&filters%5Bfree_collection%5D=0&filters%5Binclude_stock_enterprise%5D=0&filters%5Bis_editorial%5D=0&order=relevance&serie_id=524378456
+
 https://www.facebook.com/photo/?fbid=1119976043464377&set=ecnf.100063559751607&locale=az_AZ
+
 https://www.istockphoto.com/photo/portrait-of-chinese-personal-trainer-in-gym-gm1018043708-273704619
+
 https://evofitness.ch/gaining-weight-while-exercising/
+
 https://www.si.com/showcase/fitness/best-battle-rope
+
 https://stock.adobe.com/images/handsome-sportsmen-doing-sit-ups-together-in-gym/203198636
+
 https://www.performancelab.com/blogs/fitness/training-for-muscle-mass
+
 https://www.thimble.com/blog/personal-trainer-salary-guide
 
 ### **Acknowledgements**
