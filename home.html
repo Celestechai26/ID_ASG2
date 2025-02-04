@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Royal Fitness</title>
@@ -25,7 +26,7 @@
 
     <!-- Home Section -->
     <section class="home" id="home">
-        <div class="home-content">
+        <div class="home-content" data-aos="zoom-in">
             <h3>Build Your</h3>
             <h1>Dream Physique</h1>
             <h3><span class="multiple-text">Bodybuilding</span></h3>
@@ -34,18 +35,18 @@
                 enabling individuals to perform daily activities efficiently and maintain a higher quality of life.</p>
             <a href="#" class="btn">Join Us</a>
         </div>
-        <div class="home-img">
+        <div class="home-img" data-aos="zoom-in">
             <img src="images/home page fitness.jpg" alt="Home image">
         </div>
     </section>
 
     <!-- Services Section -->
     <section class="services" id="services">
-        <h2 class="heading">Our <span>Services</span></h2>
-        <div class="services-content">
+        <h2 class="heading" data-aos="zoom-in-down">Our <span>Services</span></h2>
+        <div class="services-content" data-aos="zoom-in-up">
             <div class="row">
                 <img src="images/service image 1.avif" alt="">
-                <h4>Physical Fitness</h4>
+                <h4>Physical Fitness</h4>    
             </div>
             <div class="row">
                 <img src="images/service image 2.jpg" alt="">
@@ -72,10 +73,10 @@
 
     <!-- About Section -->
     <section class="about" id="about">
-        <div class="about-img">
+        <div class="about-img" data-aos="zoom-in-down">
             <img src="images/about image.avif" alt="">
         </div>
-        <div class="about-content">
+        <div class="about-content" data-aos="zoom-in-up">
             <h2 class="heading">Why Choose Us?</h2>
             <p>Our diverse membership base creates a friendly and supportive atmosphere, where you can make friends and stay motivated.</p>
             <a href="#" class="btn">Book a Free Class</a>
@@ -84,6 +85,8 @@
 
     <!-- Pricing Section -->
     <section class="plans" id="plans">
+        <h2 class="heading" data-aos="zoom-in-down">Our <span>Plans</span></h2>
+
         <div class="plans-content">
             <div class="box">
                 <h3>BASIC</h3>
@@ -130,6 +133,85 @@
 
             </div>
         </section>
+
+        <!-- Review Section Code -->
+
+        <section class="review" id="review">
+            <div class="review-box">
+                <h2 class="heading" data-aos="zoom-in-down">Client <span>Review</span></h2>
+
+                <div class="wrapper" data-aos="zoom-in-up">
+                    <div class="review-item">
+                        <img src="./images/John.jpg" alt="">
+                        <h2>John</h2>
+                        <div class="rating">
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                        </div>
+
+                        <p>John is a certified strength and conditioning coach with over 10 years of experience in personal training. Specializing in weightlifting, muscle building, and functional strength, he helps clients maximize their physical potential through customized workout plans.</p>
+
+                    </div>
+
+                    <div class="review-item">
+                        <img src="./images/Steve.jpg" alt="">
+                        <h2>Steve</h2>
+                        <div class="rating">
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                        </div>
+
+                        <p>Steve is a high-energy fitness trainer specializing in HIIT (High-Intensity Interval Training) and weight loss transformation. With a passion for pushing clients to their limits, he designs fast-paced, calorie-torching workouts that boost metabolism and burn fat efficiently.</p>
+                        
+                    </div>
+
+                    <div class="review-item">
+                        <img src="./images/David.jpg" alt="">
+                        <h2>David</h2>
+                        <div class="rating">
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                        </div>
+
+                        <p>David is a fitness coach dedicated to improving mobility, flexibility, and overall body movement. With a background in physiotherapy and functional training, he creates personalized programs that enhance core stability, joint health, and everyday movement efficiency.</p>
+                        
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer Section Code -->
+
+        <footer class="footer">
+            <div class="social">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+            </div>
+
+            <p class="copyright">
+                &copy; Royal Fitness 2024 - All Rights Reserved
+            </p>
+        </footer>
+
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init({
+                offset: 300,
+                duration: 1400,
+            });
+        </script>
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+        <script src="script.js"></script>
     </body>
     </html>
     

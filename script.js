@@ -1,11 +1,22 @@
-// Select elements
-const menuIcon = document.getElementById("menu-icon");
-const navbar = document.querySelector(".navbar");
+let menu = document.querySelector('#menu-icon');
+let navbar = document.querySelector('.navbar');
 
-// Toggle navbar and menu icon animation
-menuIcon.addEventListener("click", () => {
-  menuIcon.classList.toggle("active");
-  navbar.classList.toggle("active");
+menu.onclick = () => {
+  menu.classList.toggle('bx-x');
+  navbar.classList.toggle('active');
+}
+
+window.onscroll = () => {
+  menu.classList.remove('bx-x');
+  navbar.classList.remove('active');
+}
+
+const typed = new Typed('.multiple-text', {
+  strings: ['Physical Fitness', 'Weight Gain', 'Strength Training', 'Fat Lose', 'Weight Lifting', 'Running'],
+  typeSpeed: 60,
+  backSpeed: 60,
+  backDelay: 1000,
+  loop: true,
 });
 
 // Optional: Close navbar when a link is clicked
@@ -16,3 +27,4 @@ navLinks.forEach(link => {
     navbar.classList.remove("active");
   });
 });
+

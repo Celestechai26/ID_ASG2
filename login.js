@@ -76,7 +76,7 @@ document.getElementById('login-form').addEventListener('submit', async (e) => {
 
         // Redirect to the home page after successful login
         setTimeout(() => {
-          window.location.href = '/Users/Celeste Chai/Desktop/ID/ID_ASG2 website/ID_ASG2/home.html'; // Update the path to your home page
+          window.location.href = '/Users/Celeste Chai/Desktop/ID/ID_ASG2 website/ID_ASG2/Lottie.html'; // Update the path to your home page
         }, 1000); // Optional: delay for 1 second to display the success message
       } else {
         throw new Error('Invalid username or password.');
