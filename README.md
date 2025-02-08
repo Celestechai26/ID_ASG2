@@ -33,6 +33,18 @@ When creating **Royal Fitness**, the goal was to make a simple and interactive w
 - **[RestDB](https://restdb.io/)** - NoSQL cloud database for storing and managing data via REST APIs.
 - **[Lottie](https://lottiefiles.com/)** - For adding lightweight animations.
 
+## **Assistive AI**  
+
+During the development of the Royal Fitness website, AI tools such as ChatGPT were used to assist in implementing specific features. Below are examples of how AI contributed to the project:  
+
+1. **Lottie Animation Styling (CSS)**  
+   - ChatGPT was used to generate CSS code for properly displaying and styling Lottie animations on the website.  
+   - The AI provided suggestions for optimizing animation responsiveness and ensuring smooth performance across different screen sizes.  
+   - Example of AI-generated CSS:  
+
+   ![Lottie CSS Example](readme_img/lottie_css.PNG)
+
+
 ## **Testing**
 
 ### **Authentication System**
